@@ -1,0 +1,186 @@
+{
+    "name": "aktiviteler",
+    "permissions": "NONE",
+    "restriction": "1",
+    "_id": "SRkrg",
+    "actions": [
+      {
+        "server": "0",
+        "varName": "",
+        "info": "1",
+        "storage": "1",
+        "varName2": "serv",
+        "name": "Store Server Info"
+      },
+      {
+        "channel": "0",
+        "varName": "",
+        "info": "1",
+        "storage": "1",
+        "varName2": "cha",
+        "name": "Store Channel Info"
+      },
+      {
+        "title": "Aktivite Listesi",
+        "author": "",
+        "color": "RANDOM",
+        "url": "",
+        "authorIcon": "",
+        "authorUrl": "",
+        "imageUrl": "",
+        "thumbUrl": "",
+        "timestamp": "false",
+        "debug": "false",
+        "text": "",
+        "year": "",
+        "month": "",
+        "day": "",
+        "hour": "",
+        "minute": "",
+        "second": "",
+        "storage": "1",
+        "varName": "embedact",
+        "name": "Create Embed Message"
+      },
+      {
+        "storage": "1",
+        "varName": "embedact",
+        "fieldName": "",
+        "message": "> <:nokta:847075312269131827> ` youtube ` ( Sesli sohbet kanalında arkadaşlarınla **Youtube Together** izle. )\n\n> <:nokta:847075312269131827> ` betrayal ` ( Sesli sohbet kanalında arkadaşlarınla **Betrayal.io** oyna. )\n\n> <:nokta:847075312269131827> ` fishing ` ( Sesli sohbet kanalında arkadaşlarınla **Fishington.io** oyna. )\n\n>  <:nokta:847075312269131827> ` poker ` ( Sesli sohbet kanalında arkadaşlarınla **Poker Night** oyna. )\n\n> <:nokta:847075312269131827> ` satranç ` ( Sesli sohbet kanalında arkadaşlarınla **Chess in the Park** oyna. )",
+        "inline": "0",
+        "name": "Add Embed Field"
+      },
+      {
+        "storage3": "1",
+        "varName3": "sa",
+        "storage": "1",
+        "varName": "embedact",
+        "channelID": "${tempVars(\"cha\")}",
+        "serverID": "${tempVars(\"serv\")}",
+        "varMember": "1",
+        "varNameMember": "",
+        "varNameButton": "",
+        "storageButton": "0",
+        "replyflags": "64",
+        "button": "3",
+        "button_sec": "3",
+        "button_thi": "3",
+        "button_fou": "3",
+        "button_fif": "3",
+        "buttonlabel": "Youtube",
+        "buttonlabel_sec": "Poker ",
+        "buttonlabel_thi": "Chess in the Park",
+        "buttonlabel_fou": "Betrayal.io",
+        "buttonlabel_fif": "Fishington.io",
+        "buttondisabled": "false",
+        "buttondisabled_sec": "false",
+        "buttondisabled_thi": "false",
+        "buttondisabled_fou": "false",
+        "buttondisabled_fif": "false",
+        "buttonstyle": "2",
+        "buttonstyle_sec": "4",
+        "buttonstyle_thi": "2",
+        "buttonstyle_fou": "1",
+        "buttonstyle_fif": "1",
+        "buttonid": "custom_id",
+        "buttonid_sec": "12",
+        "buttonid_thi": "13",
+        "buttonid_fou": "14",
+        "buttonid_fif": "15",
+        "buttonurl": "",
+        "buttonurl_sec": "",
+        "buttonurl_thi": "",
+        "buttonurl_fou": "",
+        "buttonurl_fif": "",
+        "buttonemoji": "",
+        "buttonemoji_sec": "",
+        "buttonemoji_thi": "",
+        "buttonemoji_fou": "",
+        "buttonemoji_fif": "",
+        "buttoncontent": "Aktivite başlatma başarılı. İyi eğlenceler..",
+        "buttoncontent_sec": "Aktivite başlatma başarılı. İyi eğlenceler..",
+        "buttoncontent_thi": "Aktivite başlatma başarılı. İyi eğlenceler..",
+        "buttoncontent_fou": "Aktivite başlatma başarılı. İyi eğlenceler..",
+        "buttoncontent_fif": "Aktivite başlatma başarılı. İyi eğlenceler..",
+        "buttonemojiid": "878031910830506014",
+        "buttonemojianimated": "true",
+        "buttonemojiid_sec": "878031910515904524",
+        "buttonemojianimated_sec": "true",
+        "buttonemojiid_thi": "878031910880813066",
+        "buttonemojianimated_thi": "true",
+        "buttonemojiid_fou": "878032856528617474",
+        "buttonemojianimated_fou": "true",
+        "buttonemojiid_fif": "878031910734008361",
+        "buttonemojianimated_fif": "true",
+        "call": "7",
+        "call_sec": "9",
+        "call_thi": "11",
+        "call_fou": "13",
+        "call_fif": "15",
+        "jumpidanchor": "YLIYj",
+        "jumpidanchor_sec": "YL2",
+        "jumpidanchor_thi": "Eiqqd",
+        "jumpidanchor_fou": "YL3",
+        "jumpidanchor_fif": "YL34",
+        "name": "Send Embed Message With Button"
+      },
+      {
+        "name": "End Action Sequence"
+      },
+      {
+        "sourcetype": "1",
+        "source": "YLIYj",
+        "source2": "YLIYj",
+        "type": "true",
+        "name": "Call Command/Event"
+      },
+      {
+        "name": "End Action Sequence"
+      },
+      {
+        "sourcetype": "1",
+        "source": "YLIYj",
+        "source2": "YL2",
+        "type": "true",
+        "name": "Call Command/Event"
+      },
+      {
+        "name": "End Action Sequence"
+      },
+      {
+        "sourcetype": "1",
+        "source": "JfOmb",
+        "source2": "Eiqqd",
+        "type": "true",
+        "name": "Call Command/Event"
+      },
+      {
+        "name": "End Action Sequence"
+      },
+      {
+        "sourcetype": "1",
+        "source": "JfOmb",
+        "source2": "YL3",
+        "type": "true",
+        "name": "Call Command/Event"
+      },
+      {
+        "name": "End Action Sequence"
+      },
+      {
+        "sourcetype": "1",
+        "source": "JfOmb",
+        "source2": "YL34",
+        "type": "true",
+        "name": "Call Command/Event"
+      }
+    ],
+    "comType": "0",
+    "customData": {
+      "Command Info": {
+        "category": "None",
+        "description": "No Description",
+        "include": "No"
+      }
+    }
+  }
