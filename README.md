@@ -1,1 +1,1 @@
-Command idleri girerek buttonları ayarlayabilirsiniz. Sorunuz ve ya sorununuz olursa Semix#0031'e yazabilirsiniz
+Command idleri girerek buttonları ayarlayabilirsiniz. Sorunuz ve ya sorununuz olursa Semih#0700'e yazabilirsiniz
